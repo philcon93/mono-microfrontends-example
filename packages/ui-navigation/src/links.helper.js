@@ -4,7 +4,7 @@ export const links = [
     href: "/people",
   },
   {
-    name: "Planets",
-    href: "/planets",
+    name: "Places",
+    href: "/places",
   },
 ];

@@ -3,12 +3,10 @@
   "version": "0.0.1",
   "author": "",
   "license": "ISC",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "lint": "eslint src",
     "start": "webpack serve --port 9002",
-    "start:standalone": "webpack serve --env standalone",
+    "start:standalone": "webpack serve --port 9002 --env standalone",
     "test": "jest --passWithNoTests",
     "build": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
@@ -43,7 +41,6 @@
     "prettier": "^2.0.5",
     "pretty-quick": "^3.1.0",
     "react-router-dom": "^5.2.0",
-    "single-spa-react": "^4.4.0",
     "webpack": "^5.15.0",
     "webpack-cli": "^4.3.1",
     "webpack-config-single-spa-react": "^4.0.1",
@@ -53,6 +50,7 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router": "^5.2.0"
+    "react-router": "^5.2.0",
+    "single-spa-react": "^4.4.0"
   }
 }
