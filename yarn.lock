@@ -4332,7 +4332,7 @@ css-color-names@^0.0.4:
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
   integrity sha1-gIrcLnnPhHOAabZGyyDsJ762KeA=
 
-css-loader@^5.0.1, css-loader@^5.2.6, css-loader@^5.2.7:
+css-loader@^5.2.7:
   version "5.2.7"
   resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-5.2.7.tgz#9b9f111edf6fb2be5dc62525644cbc9c232064ae"
   integrity sha512-Q7mOvpBNBG7YrVGMxRxcBJZFL75o+cH2abNASdibkj/fffYD8qWbInZrD0S9ccI6vZclF3DsHE7njGlLtaHbhg==
@@ -6113,7 +6113,7 @@ html-tags@^3.1.0:
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.1.0.tgz#7b5e6f7e665e9fb41f30007ed9e0d41e97fb2140"
   integrity sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg==
 
-html-webpack-plugin@^5.1.0, html-webpack-plugin@^5.3.2:
+html-webpack-plugin@^5.3.2:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-5.3.2.tgz#7b04bf80b1f6fe84a6d3f66c8b79d64739321b08"
   integrity sha512-HvB33boVNCz2lTyBsSiMffsJ+m0YLIQ+pskblXgN9fnjS1BgEcuAfdInfXfGrkdXV406k9FiDi86eVCDBgJOyQ==
@@ -10857,16 +10857,6 @@ stack-utils@^2.0.2, stack-utils@^2.0.3:
   dependencies:
     escape-string-regexp "^2.0.0"
 
-standalone-single-spa-webpack-plugin@^1.1.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/standalone-single-spa-webpack-plugin/-/standalone-single-spa-webpack-plugin-1.2.2.tgz#cae12845d6021351dbe40a2c25fe51644ceaaa4d"
-  integrity sha512-4K4ub2LHkEvKN+MGA2SDSySw6Wr+CyFnAeJmtOPvz51uLcv05SYBXGYf5qhe7DPjbflPIXwMRUCYyTqC7EXqtA==
-
-standalone-single-spa-webpack-plugin@^2.0.2:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/standalone-single-spa-webpack-plugin/-/standalone-single-spa-webpack-plugin-2.1.0.tgz#72e3de510eef43c0e8102f43e50de5f71e2b1bcb"
-  integrity sha512-NV4CcyX8pDnAFdtr2gcHYbQCcb8ur+mgWVPjQmI9zCKfL70tdlka2AEKoOdtE27cDDgInD70PI87hdUU48hcdg==
-
 standalone-single-spa-webpack-plugin@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/standalone-single-spa-webpack-plugin/-/standalone-single-spa-webpack-plugin-3.0.0.tgz#629267e4597b938f1f8c177108a909d4e51a9f50"
@@ -11044,15 +11034,7 @@ strong-log-transformer@^2.1.0:
     minimist "^1.2.0"
     through "^2.3.4"
 
-style-loader@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-2.0.0.tgz#9669602fd4690740eaaec137799a03addbbc393c"
-  integrity sha512-Z0gYUJmzZ6ZdRUqpg1r8GsaFKypE+3xAzuFeMuoHgjc9KZv3wMyCRjQIWEbhoFSq7+7yoHXySDJyyWQaPajeiQ==
-  dependencies:
-    loader-utils "^2.0.0"
-    schema-utils "^3.0.0"
-
-style-loader@^3.0.0, style-loader@^3.2.1:
+style-loader@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-3.2.1.tgz#63cb920ec145c8669e9a50e92961452a1ef5dcde"
   integrity sha512-1k9ZosJCRFaRbY6hH49JFlRB0fVSbmnyq1iTPjNxUmGVjBNEmwrrHPenhlp+Lgo51BojHSf6pl2FcqYaN3PfVg==
@@ -11103,7 +11085,7 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-systemjs-webpack-interop@^2.3.2, systemjs-webpack-interop@^2.3.7:
+systemjs-webpack-interop@^2.3.7:
   version "2.3.7"
   resolved "https://registry.yarnpkg.com/systemjs-webpack-interop/-/systemjs-webpack-interop-2.3.7.tgz#b8ed2a81c371bab3160ac4801776ef61cf8c7959"
   integrity sha512-9wmhkleKWVjcGfHpc1/YvfADnvzpYMdr2/AM2e7FpMczPYEdluwM3AMXxHGzPUNbWfnSaerrmzqP4nDsTDvBxA==
@@ -11830,7 +11812,7 @@ webidl-conversions@^6.1.0:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
   integrity sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
 
-webpack-bundle-analyzer@^4.2.0, webpack-bundle-analyzer@^4.4.2:
+webpack-bundle-analyzer@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.4.2.tgz#39898cf6200178240910d629705f0f3493f7d666"
   integrity sha512-PIagMYhlEzFfhMYOzs5gFT55DkUdkyrJi/SxJp8EF3YMWhS+T9vvs2EoTetpk5qb6VsCq02eXTlRDOydRhDFAQ==
@@ -11864,49 +11846,14 @@ webpack-cli@^4.3.1, webpack-cli@^4.8.0:
     v8-compile-cache "^2.2.0"
     webpack-merge "^5.7.3"
 
-webpack-config-single-spa-react@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/webpack-config-single-spa-react/-/webpack-config-single-spa-react-2.0.0.tgz#d82d68a3bc28dd0746cc6f5d43a94eca6e761a05"
-  integrity sha512-7akUFL5rYXTwmm8mYrwa1YduR36fBz7xt4tpYQEFf19AKSI3Mv+Us83Tf/56OpAgJI6hNzCtKZ29aN7Np9gntQ==
+webpack-config-single-spa-react@^5.1.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/webpack-config-single-spa-react/-/webpack-config-single-spa-react-4.0.1.tgz#bc304923b59fcfea578bb0c64ecccc6d63125b38"
+  integrity sha512-4Wi7oP/r26jR2vvpcnMc8h63d8KDOmUM3QykA7I9Fb3pFRvprV0rAUoyImyrbHIWwEeH8nywyd63EGnJDYSKVQ==
   dependencies:
-    webpack-config-single-spa "^2.0.0"
+    webpack-config-single-spa "5.1.0"
 
-webpack-config-single-spa-react@^2.0.0:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/webpack-config-single-spa-react/-/webpack-config-single-spa-react-2.2.4.tgz#31f53730bfc8099d13cb245590dcde818d259415"
-  integrity sha512-E+vrs7c4WmcXCLa6c/swwXQqyrs7jqQAy5sYG7oe7WMZye8qa7yvUTMJw+Tww2KDwHSCRVRLJp7WFYeccLA1gg==
-  dependencies:
-    webpack-config-single-spa "3.1.0"
-
-webpack-config-single-spa@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/webpack-config-single-spa/-/webpack-config-single-spa-3.1.0.tgz#ec3e5384896b41c9ea15284c93413cb8b3318325"
-  integrity sha512-tONwO/w6ugTjuWkWa0pcoJnsUmpNZToWenaD+IIhXbjU3fnQGUPGRuYf6tkn1YSaqpe79dyR2nIWv4XxzA5jkA==
-  dependencies:
-    babel-loader "^8.2.2"
-    css-loader "^5.2.6"
-    html-webpack-plugin "^5.3.2"
-    standalone-single-spa-webpack-plugin "^2.0.2"
-    style-loader "^3.0.0"
-    systemjs-webpack-interop "^2.3.7"
-    unused-files-webpack-plugin "^3.4.0"
-    webpack-bundle-analyzer "^4.4.2"
-
-webpack-config-single-spa@^2.0.0:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/webpack-config-single-spa/-/webpack-config-single-spa-2.2.1.tgz#4ce9b4547cadc1701bb0dc1400e665bf96994b1a"
-  integrity sha512-6J0ehjby3xuOi5+yeJPBa03slbYmDEYaquLVDYyvYm5jxbT/pFBX21Ne/oqHQ5NuQ7VVNkhJYoysTwFgcf3e9w==
-  dependencies:
-    babel-loader "^8.2.2"
-    css-loader "^5.0.1"
-    html-webpack-plugin "^5.1.0"
-    standalone-single-spa-webpack-plugin "^1.1.0"
-    style-loader "^2.0.0"
-    systemjs-webpack-interop "^2.3.2"
-    unused-files-webpack-plugin "^3.4.0"
-    webpack-bundle-analyzer "^4.2.0"
-
-webpack-config-single-spa@^5.0.0:
+webpack-config-single-spa@5.1.0, webpack-config-single-spa@^5.0.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/webpack-config-single-spa/-/webpack-config-single-spa-5.1.0.tgz#a6c2a9cdc5c7fecbb4ee9446fd6b45bc02a80bde"
   integrity sha512-MfiG783+Faxsdh8DkoJFT+awQdp0fGkbNbOG8GfndB6v8g/CR8z2ldDnn4vM8lp1OOCKclNu200RCGX6SJdMtg==
