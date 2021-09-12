@@ -4,15 +4,17 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "lint": "eslint src",
     "start": "webpack serve --port 9002",
     "start:standalone": "webpack serve --port 9002 --env standalone",
-    "test": "jest --passWithNoTests",
-    "build": "webpack --mode=production",
+    "build": "concurrently yarn:build:*",
+    "build:webpack": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
+    "lint": "eslint src --ext js",
     "format": "prettier --write .",
-    "watch-tests": "jest --watch",
-    "coverage": "jest --coverage --passWithNoTests"
+    "check-format": "prettier --check .",
+    "test": "cross-env BABEL_ENV=test jest",
+    "watch-tests": "cross-env BABEL_ENV=test jest --watch",
+    "coverage": "cross-env BABEL_ENV=test jest --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
@@ -30,6 +32,7 @@
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "3.0.0",
     "concurrently": "^5.2.0",
+    "cross-env": "^7.0.3",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-config-react-important-stuff": "^3.0.0",

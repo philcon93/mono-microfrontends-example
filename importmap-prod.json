@@ -1,0 +1,9 @@
+{
+    "imports": {
+      "@react-mf/root-config": "//localhost:9000/react-mf-root-config.js",
+      "@react-mf/styleguide": "//localhost:9001/react-mf-styleguide.js",
+      "@react-mf/ui-navigation": "//localhost:9002/react-mf-ui-navigation.js",
+      "@react-mf/ui-people": "//localhost:9003/react-mf-ui-people.js",
+      "@react-mf/ui-places": "//localhost:9004/react-mf-ui-places.js"
+    }
+}
