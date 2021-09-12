@@ -9,7 +9,9 @@
   ],
   "scripts": {
     "start": "lerna run start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lerna run test",
+    "build": "lerna run build",
+    "deploy": "lerna run deploy"
   },
   "keywords": [],
   "author": "",

@@ -7,7 +7,9 @@
     "test": "jest --passWithNoTests",
     "format": "prettier --write .",
     "build": "webpack --mode=production",
-    "analyze": "webpack --env analyze"
+    "analyze": "webpack --env analyze",
+    "deploy:preview": "vercel dev",
+    "deploy": "vercel deploy --prod"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
