@@ -10,6 +10,9 @@
   <script type="systemjs-importmap">
     {
       "imports": {
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.3/lib/system/single-spa.min.js",
+        "react": "https://cdn.jsdelivr.net/npm/react@17.0.1/umd/react.production.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.1/umd/react-dom.production.min.js",
         "@react-mf/root-config": "https://root-config-philcon93.vercel.app/react-mf-root-config.js",
         "@react-mf/styleguide": "https://styleguide-philcon93.vercel.app/react-mf-styleguide.js",
         "@react-mf/ui-navigation": "https://ui-navigation-philcon93.vercel.app/react-mf-ui-navigation.js",
@@ -18,15 +21,6 @@
       }
     }
   </script>
-  <% if (isLocal) { %>
-  <script type="systemjs-importmap">
-    {
-      "imports": {
-        "@react-mf/root-config": "//localhost:9000/react-mf-root-config.js"
-      }
-    }
-  </script>
-  <% } %>
   <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
