@@ -6,16 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>React Microfrontends</title>
   <meta name="importmap-type" content="systemjs-importmap" />
-  <script type="systemjs-importmap" src="https://storage.googleapis.com/react.microfrontends.app/importmap.json"></script>
+  <!-- <script type="systemjs-importmap" src="https://storage.googleapis.com/react.microfrontends.app/importmap.json"></script> -->
+  <script type="systemjs-importmap">
+    {
+      "imports": {
+        "@react-mf/root-config": "https://root-config-philcon93.vercel.app/react-mf-root-config.js",
+        "@react-mf/styleguide": "https://styleguide-philcon93.vercel.app/react-mf-styleguide.js",
+        "@react-mf/ui-navigation": "https://ui-navigation-philcon93.vercel.app/react-mf-ui-navigation.js",
+        "@react-mf/ui-people": "https://ui-people-philcon93.vercel.app/react-mf-ui-people.js",
+        "@react-mf/ui-places": "https://ui-places.vercel.app/react-mf-ui-places.js"
+      }
+    }
+  </script>
   <% if (isLocal) { %>
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@react-mf/root-config": "//localhost:9000/react-mf-root-config.js",
-        "@react-mf/styleguide": "//localhost:9001/react-mf-styleguide.js",
-        "@react-mf/ui-navigation": "//localhost:9002/react-mf-ui-navigation.js",
-        "@react-mf/ui-people": "//localhost:9003/react-mf-ui-people.js",
-        "@react-mf/ui-places": "//localhost:9004/react-mf-ui-places.js"
+        "@react-mf/root-config": "//localhost:9000/react-mf-root-config.js"
       }
     }
   </script>
