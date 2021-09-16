@@ -3,6 +3,11 @@
     "packages/*"
   ],
   "version": "independent",
+  "command": {
+    "version": {
+      "message": "publish %v"
+    }
+  },
   "npmClient": "yarn",
   "useWorkspaces": true
 }
