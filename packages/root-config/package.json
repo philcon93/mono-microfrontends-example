@@ -1,5 +1,5 @@
 {
-  "name": "root-config",
+  "name": "@philcon93/root-config",
   "version": "0.0.2",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
@@ -11,6 +11,9 @@
     "deploy:preview": "vercel dev",
     "deploy": "vercel deploy --prod"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
