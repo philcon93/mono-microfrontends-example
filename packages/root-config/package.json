@@ -1,6 +1,6 @@
 {
   "name": "@philcon93/root-config",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src",
