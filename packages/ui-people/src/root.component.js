@@ -1,3 +1,34 @@
-export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
-}
+import { OutfitProvider, useOutfit } from '@outfit.io/react';
+import { Styles } from './styles';
+
+const Page = () => {
+  const { account, team, user, inputs } = useOutfit();
+  console.log('account', account);
+  console.log('team', team);
+  console.log('user', user);
+  console.log('inputs', inputs);
+
+  if (!account) {
+    return <span>Loading...</span>;
+  }
+
+  return (
+    <>
+    <Styles />
+    <div className="App">
+      <header className="App-header">
+        <img className="App-logo" alt="logo" src="https://outfit-website.vercel.app/burst.svg"/>
+        <p>{inputs.text}</p>
+      </header>
+    </div>
+    </>
+  );
+};
+
+export default function App ({ templateProps = window.payload }){
+  return (
+    <OutfitProvider templateProps={templateProps}>
+      <Page />
+    </OutfitProvider>
+  );
+};

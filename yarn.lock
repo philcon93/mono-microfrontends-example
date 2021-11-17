@@ -2278,6 +2278,11 @@
   dependencies:
     "@octokit/openapi-types" "^10.1.0"
 
+"@outfit.io/react@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@outfit.io/react/-/react-0.0.9.tgz#877646cf1f5d9d2ee97d74c2436dc84b1875de2d"
+  integrity sha512-KS3gifLuso8x/atb7bEAwqW9ijiC30hp48c5iCnQU9sOYfy1vEQ40e3ibputttYNigRhn0TAsKuovKl+QddPEA==
+
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.20"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.20.tgz#111b5db0f501aa89b05076fa31f0ea0e0c292cd3"
