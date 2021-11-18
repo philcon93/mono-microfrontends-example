@@ -1,25 +1,23 @@
-import { registerApplication, start } from 'single-spa';
+import {
+  constructRoutes,
+  constructApplications,
+  constructLayoutEngine,
+} from "single-spa-layout";
+import { registerApplication, start } from "single-spa";
 
-// Loop through the route file entries
-window.routes.forEach((route) => {
-    const { application, renders } = route;
+const routes = constructRoutes(document.querySelector("#layout"));
 
-    if (!application) { return; }
-
-    // Renders
-    renders.forEach((render) => {
-        const { name, container = 'react-container' } = render;
-
-        if (!name) { return; }
-
-        // Register application with single-spa
-        registerApplication(
-            name,
-            () => System.import(application), /* eslint-disable-line no-undef */
-            () => !!document.getElementById(container),
-            { domElement: document.getElementById(container) }
-        );
-    });
+const applications = constructApplications({
+  routes,
+  loadApp: ({ name }) => System.import(name),
+});
+// Delay starting the layout engine until the styleguide CSS is loaded
+const layoutEngine = constructLayoutEngine({
+  routes,
+  applications,
+  active: true,
 });
 
+applications.forEach(registerApplication);
+layoutEngine.activate();
 start();
